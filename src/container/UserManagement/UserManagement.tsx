@@ -12,6 +12,7 @@ const UserManagement = () => {
       email: "test@gmail.com",
       active: true,
       role: "user",
+      imageUrl: "https://cdn-icons-png.flaticon.com/128/560/560277.png"
     },
     {
       id: "2",
@@ -19,6 +20,8 @@ const UserManagement = () => {
       email: "test@gmail.com",
       active: true,
       role: "user",
+      imageUrl: "https://cdn-icons-png.flaticon.com/128/4635/4635631.png"
+
     },
     {
       id: "3",
@@ -26,6 +29,7 @@ const UserManagement = () => {
       email: "test@gmail.com",
       active: true,
       role: "user",
+      imageUrl: "https://cdn-icons-png.flaticon.com/128/3281/3281355.png"
     },
   ]);
 
