@@ -3,7 +3,6 @@ import UserForm from "../../components/UserForm/UserForm.tsx";
 import Users from "../../components/Users/Users.tsx";
 import { useState } from "react";
 import { IUser } from "../../types";
-import user from '../../components/Users/User.tsx';
 
 const UserManagement = () => {
   const [users, setUsers] = useState<IUser[]>([
@@ -13,7 +12,7 @@ const UserManagement = () => {
       email: "test@gmail.com",
       active: true,
       role: "user",
-      imageUrl: "https://cdn-icons-png.flaticon.com/128/560/560277.png"
+      imageUrl: "https://cdn-icons-png.flaticon.com/128/560/560277.png",
     },
     {
       id: "2",
@@ -21,8 +20,7 @@ const UserManagement = () => {
       email: "test@gmail.com",
       active: true,
       role: "editor",
-      imageUrl: "https://cdn-icons-png.flaticon.com/128/4635/4635631.png"
-
+      imageUrl: "https://cdn-icons-png.flaticon.com/128/4635/4635631.png",
     },
     {
       id: "3",
@@ -30,7 +28,7 @@ const UserManagement = () => {
       email: "test@gmail.com",
       active: true,
       role: "admin",
-      imageUrl: "https://cdn-icons-png.flaticon.com/128/3281/3281355.png"
+      imageUrl: "https://cdn-icons-png.flaticon.com/128/3281/3281355.png",
     },
   ]);
 
