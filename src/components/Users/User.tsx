@@ -25,6 +25,7 @@ const User: React.FC<Props> = ({ user }) => {
     }
   };
 
+
   return (
     <div
       className="border mb-3 rounded d-flex justify-content-between"

@@ -34,7 +34,7 @@ const UserForm = ({addNewUSer}) => {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (newUser.name.trim().length === 0 && newUser.email.trim().length === 0 && newUser.role.trim().length === 0) {
+    if (newUser.name.trim().length === 0 || newUser.email.trim().length === 0 || newUser.role === '') {
       alert('Fill in all fields!');
     }  else {
       addNewUSer({
